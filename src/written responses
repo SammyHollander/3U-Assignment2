@@ -1,0 +1,17 @@
+1a) true
+b) true
+c) false
+d) false
+e) false
+f) true
+g) true
+
+2)
+the first statement basically gets karel to see if he can pick thing.
+if he can, he will turn right, if karel cannot pick thing, then he will turn left
+
+the second statement gets karel to see if something is in front of him.
+since it has the negative (!) on it, if he cannot pick thing, he will turn left.
+And if karel can pick thing, he will turn right.
+
+so although the code looks different the outcome is the same for both statements.
