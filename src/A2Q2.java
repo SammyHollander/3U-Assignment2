@@ -44,28 +44,28 @@ public class A2Q2 {
         new Thing(lego, 3, 9);
 
         //make karel run the race
-while(!(ruby.canPickThing())){
-        //if ruby's front is clear, move
-        if (ruby.frontIsClear()) {
-            ruby.move();
-        } else {
-            //process of jumping a hurdle
-            ruby.turnLeft();
-            ruby.move();
-            ruby.turnLeft();
-            ruby.turnLeft();
-            ruby.turnLeft();
-            ruby.move();
-            ruby.turnLeft();
-            ruby.turnLeft();
-            ruby.turnLeft();
-            ruby.move();
-            ruby.turnLeft();
-            
-            
+        while (!(ruby.canPickThing())) {
+            //if ruby's front is clear, move
+            if (ruby.frontIsClear()) {
+                ruby.move();
+            } else {
+                //process of jumping a hurdle
+                ruby.turnLeft();
+                ruby.move();
+                ruby.turnLeft();
+                ruby.turnLeft();
+                ruby.turnLeft();
+                ruby.move();
+                ruby.turnLeft();
+                ruby.turnLeft();
+                ruby.turnLeft();
+                ruby.move();
+                ruby.turnLeft();
 
 
+
+
+            }
         }
     }
-}
 }
