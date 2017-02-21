@@ -13,7 +13,7 @@ import becker.robots.Wall;
  *
  * @author holls9719
  */
-public class A1Challenge {
+public class A2Challenge {
 
     /**
      * @param args the command line arguments
